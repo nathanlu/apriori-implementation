@@ -87,4 +87,6 @@ def apriori(min_sup):
 
 		print 'writing topic %s'%i
 
-apriori(0.01)
+
+if __name__ == '__main__':
+	apriori(0.01)

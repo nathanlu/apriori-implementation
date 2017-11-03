@@ -22,5 +22,5 @@ def get_topic_words():
 				count += 1
 		print 'topic'+str(i)+' finished'
 
-
-get_topic_words()
+if __name__ == '__main__':
+	get_topic_words()

@@ -30,7 +30,7 @@ def get_title():
 				out.write(' '+str(vocab.index(word))+':'+str(words[word]))
 			out.write('\n')
 
-
-get_vocab()
-get_title()
+if __name__ == '__main__':
+	get_vocab()
+	get_title()
 
