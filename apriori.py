@@ -1,6 +1,9 @@
 from collections import Counter
 import operator
 
+# Apriori algo implementation
+# tlu 2020-11-30
+
 def has_infrequent_subset(candidate,l_prev):
 
 	for k in range(len(candidate)):
